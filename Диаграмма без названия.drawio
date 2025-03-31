@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="Страница — 1" id="7YhYr_va-TCdTjCw_P9J">
-    <mxGraphModel dx="3190" dy="2017" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5802" dy="3459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -238,14 +238,80 @@
         <mxCell id="W7qoIp80rK4BXS5TUZ5P-4" value="ORM" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="880.5" width="360" height="1150" as="geometry" />
         </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-131" value="RevardTable (starsfortasks)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-4">
+          <mxGeometry x="19.5" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-132" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-131">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-133" value="ContestTable (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-4">
+          <mxGeometry x="19.5" y="120" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-134" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-133">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-135" value="ContestResultTable (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-4">
+          <mxGeometry x="19.5" y="200" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-136" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-135">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-137" value="SalepointsTable (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-4">
+          <mxGeometry x="19.5" y="280" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-138" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-137">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-139" value="StarTypeTable (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-4">
+          <mxGeometry x="19.5" y="360" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-140" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-139">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="W7qoIp80rK4BXS5TUZ5P-5" value="БД" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1320" width="360" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-141" value="give_star_log (startrack.givestars)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-5">
+          <mxGeometry x="20" y="440" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-142" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-141">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-143" value="revard (starsfortasks)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-5">
+          <mxGeometry x="20" y="40" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-144" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-143">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-156" value="contest (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-5">
+          <mxGeometry x="20" y="120" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-157" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-156">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-158" value="contest_result (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-5">
+          <mxGeometry x="20" y="200" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-159" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-158">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-160" value="shop (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-5">
+          <mxGeometry x="20" y="280" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-161" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-160">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-162" value="star_type (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-5">
+          <mxGeometry x="20" y="360" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-163" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-162">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W7qoIp80rK4BXS5TUZ5P-10" value="Компоненты" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-880" width="360" height="1150" as="geometry" />
         </mxCell>
         <mxCell id="W7qoIp80rK4BXS5TUZ5P-65" value="Модули" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="-720" width="1800" height="236" as="geometry" />
+          <mxGeometry x="-650" y="-320" width="1800" height="236" as="geometry" />
         </mxCell>
         <mxCell id="W7qoIp80rK4BXS5TUZ5P-67" value="realize.gbv" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-65">
           <mxGeometry x="20" y="36" width="230" height="184" as="geometry" />
@@ -289,8 +355,8 @@
         <mxCell id="W7qoIp80rK4BXS5TUZ5P-85" value="Ценности компании.&lt;div&gt;Добавляет на портал статичную&amp;nbsp;&lt;/div&gt;&lt;div&gt;страницу с описанием ценностей&amp;nbsp;&lt;/div&gt;&lt;div&gt;компании&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-84">
           <mxGeometry x="5" y="24" width="220" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="W7qoIp80rK4BXS5TUZ5P-66" value="Компоненты" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-640" y="-440" width="1800" height="224" as="geometry" />
+        <mxCell id="W7qoIp80rK4BXS5TUZ5P-66" value="Самостоятельные компоненты" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="-584" width="780" height="224" as="geometry" />
         </mxCell>
         <mxCell id="W7qoIp80rK4BXS5TUZ5P-86" value="starshop.userscore" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="W7qoIp80rK4BXS5TUZ5P-66">
           <mxGeometry x="20" y="40" width="230" height="170" as="geometry" />
