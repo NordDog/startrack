@@ -1434,26 +1434,8 @@
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-57" value="public list(array $filter, int $limit, int $offset): array" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-56" vertex="1">
           <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-60" value="EmployeeController (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="1970" width="320" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-61" value="public list(array $filter = []&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;array&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-60" vertex="1">
-          <mxGeometry y="30" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-64" value="public listFromFile(string $fileName, string $base64String&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-60" vertex="1">
-          <mxGeometry y="60" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-65" value="public getScores(int $userId&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): array&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-60" vertex="1">
-          <mxGeometry y="90" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-66" value="private prepareFilter(array $arrFullNames&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): array&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-60" vertex="1">
-          <mxGeometry y="120" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-67" value="private filterEmployers(array $allEmpls, array $foundEmpls&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-60" vertex="1">
-          <mxGeometry y="150" width="320" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-68" value="EmployeeController (pwapp)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="430" width="320" height="240" as="geometry" />
+          <mxGeometry x="20" y="430" width="320" height="270" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-69" value="public read(int $id): array" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -1464,26 +1446,29 @@
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-70" value="public list(array $filter, int $limit, int $offset): array" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
           <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-71" value="public getFirstUse(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): bool&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
+        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-64" value="public listFromFile(string $fileName, string $base64String&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
           <mxGeometry y="120" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-72" value="public setFirstUse(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;bool&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
+        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-71" value="public getFirstUse(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): bool&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
           <mxGeometry y="150" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-74" value="public getLoginPhone(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;string&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
+        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-72" value="public setFirstUse(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;bool&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
           <mxGeometry y="180" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-75" value="public out(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): void&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
+        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-74" value="public getLoginPhone(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;string&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
           <mxGeometry y="210" width="320" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-75" value="public out(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;): void&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-68" vertex="1">
+          <mxGeometry y="240" width="320" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-76" value="PostController (pwapp)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="680" width="320" height="60" as="geometry" />
+          <mxGeometry x="20" y="710" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-77" value="public list(array $filter, int $limit, int $offset&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;array&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-76" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-79" value="GratsController (pwapp)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="750" width="320" height="90" as="geometry" />
+          <mxGeometry x="20" y="780" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-81" value="public create(array $data&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;int&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-79" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -1492,7 +1477,7 @@
           <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-83" value="LikeController (pwapp)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="850" width="320" height="90" as="geometry" />
+          <mxGeometry x="20" y="880" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-86" value="public toggle(string $entityTypeId, int $entityId&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;bool&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-83" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -1501,13 +1486,13 @@
           <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-87" value="MenuController (pwapp)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="950" width="320" height="60" as="geometry" />
+          <mxGeometry x="20" y="980" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-88" value="public get(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;):&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;&amp;nbsp;array&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-87" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-96" value="RatingController (starsrating)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="1019" width="320" height="150" as="geometry" />
+          <mxGeometry x="20" y="1050" width="320" height="150" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-97" value="public list(array $filter&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): array&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-96" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -1522,7 +1507,7 @@
           <mxGeometry y="120" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-101" value="ContestController (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="1180" width="320" height="210" as="geometry" />
+          <mxGeometry x="20" y="1210" width="320" height="210" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-102" value="public create(array $data&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): int&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-101" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -1543,7 +1528,7 @@
           <mxGeometry y="180" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-108" value="ContestResultController (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="1400" width="320" height="120" as="geometry" />
+          <mxGeometry x="20" y="1430" width="320" height="120" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-109" value="public getFieldsNames(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): array&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-108" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -1555,7 +1540,7 @@
           <mxGeometry y="90" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-112" value="DepartmentController (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="1530" width="320" height="90" as="geometry" />
+          <mxGeometry x="20" y="1560" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-113" value="public read(int $id&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): array&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;glass=0;" parent="OLY_k_zF5DIJ8Wyp_X4i-112" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
@@ -1564,12 +1549,12 @@
           <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-115" value="FileController (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="2160" width="320" height="150" as="geometry" />
+          <mxGeometry x="20" y="1660" width="320" height="150" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-117" value="public create(array $data&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): int&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-115" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-118" value="public getData(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-115" vertex="1">
+        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-118" value="public read(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-115" vertex="1">
           <mxGeometry y="60" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-119" value="public getEmployersFullName(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-115" vertex="1">
@@ -1578,20 +1563,14 @@
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-120" value="private setModelByFileExt($type&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-115" vertex="1">
           <mxGeometry y="120" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-121" value="GeneralController (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="2320" width="320" height="120" as="geometry" />
+        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-121" value="AdminPanelController" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
+          <mxGeometry x="20" y="1820" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-122" value="public isAccessible(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): bool&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-121" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-123" value="public getEmployeeIblockID(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): int&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-121" vertex="1">
-          <mxGeometry y="60" width="320" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-124" value="public getPositionIblockID(&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): int&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-121" vertex="1">
-          <mxGeometry y="90" width="320" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-125" value="SalepointsController (startrackadminpanel)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-53" vertex="1">
-          <mxGeometry x="20" y="2450" width="320" height="60" as="geometry" />
+          <mxGeometry x="20" y="1890" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OLY_k_zF5DIJ8Wyp_X4i-126" value="public list(array $filter = []&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;): array&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rounded=1;" parent="OLY_k_zF5DIJ8Wyp_X4i-125" vertex="1">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
